@@ -1,0 +1,28 @@
+a{
+
+   color:red; 
+
+}
+a:visited{
+
+    color:green; 
+     
+ }
+
+ a:hover{
+
+    color:pink; 
+     
+ }
+
+ a:active{
+
+    color:blue; 
+     
+ }
+
+ div  * { background-color: yellow;}
+ div >  * { color: red;}
+
+ div + p { border : 1px double #32a1ce}
+ div ~ p {padding: 0.5rem;}
